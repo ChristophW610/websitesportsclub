@@ -1,0 +1,97 @@
+/*
+Autor: Christoph Wölfel
+Version: 1.01
+Datumn: 15.10.22
+*/
+
+body{
+background-image: url("bg.jpg");
+font-family: Helvetica;
+margin: 0px;
+}
+
+header{
+	
+	text-align: center;
+	display: block;
+	width: 100%;
+	color: white;
+	background-image: linear-gradient(to top, gray 0%, black 50%);
+	height: 100px;
+	font-size: 50;
+	position: fixed;
+	
+}
+
+h1{
+	float: left;
+	margin-left: 2%;
+	margin-top: 6px;
+	color: white;
+	font-size: 3.2vw;
+}
+
+ul{
+	width: auto;
+	margin-top: 6px;
+	float: right;
+}
+
+li{
+	display: inline-block;
+	margin: 10px;
+}
+
+
+a{
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-size: 1.5vw;
+}
+
+a:hover{
+	color: grey;
+	transition: 0.5s;
+	size: fixed;
+}
+
+.boxg{
+	margin: 0 auto;
+	background-color: white;
+	border: 0px;
+	width: 1000px;	
+	text-align: center;
+	padding: 0px;
+	min-height: 1000px;
+}
+
+.boxgb{
+	margin: 0 auto;
+	height: 600px;
+	width: 750px;	
+	text-align: center;
+	padding: 20px;
+	background-color : white;
+	min-height: 1000px;
+}
+
+.boxg img{
+	margin-top: 0px;
+	object-fit: contain;
+	width:100%;
+	height:auto;
+	background-color : white;
+}
+
+.heading{
+	font-size: 22;
+	font-weight: bold;
+	text-align: left;
+	text-decoration: underline;
+}
+
+.tabellentext{
+	line-height: 150%;
+}
+
